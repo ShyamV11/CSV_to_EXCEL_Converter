@@ -16,3 +16,10 @@ This converter needs PANDAS package
 >> pip install pandas
 
 post installation import pandas in the code.
+
+
+pandas 0.25.3 if not working proper install pandas 0.24.2
+
+pip install pandas==0.24.2
+
+
