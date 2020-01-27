@@ -29,7 +29,7 @@ def convert():
     except:
         messagebox.showerror("Error!!!", "Please select file!!!")
 
-label = tk.Lable(win, text='Converter', **label_style)
+label = tk.Label(win, text='Converter', **label_style)
 button1 = tk.Button(win, text='     Choose a csv file    ', command=browse, **button_style1)
 button2 = tk.Button(win, text='Convert csv to xlsx', command=convert, **button_style2)
 
